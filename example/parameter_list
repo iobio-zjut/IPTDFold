@@ -1,0 +1,7 @@
+# =============== Paremeters of CGLFold ===============
+# Name			Value
+#
+NP				100
+G				100
+Refine_G		500
+
