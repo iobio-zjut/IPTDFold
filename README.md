@@ -16,7 +16,7 @@
 ## 1. INSTALLATION
 Binaries for Linux 64 bit system has been included in the package. The Linux binary was compiled using GCC 5.4.0. Users need to have these versions of GCC compilers when using binaries.
 
-Please Follow the below steps to install and configure CGLFold:
+Please Follow the below steps to install and configure IPTDFold:
 
 - Download Rosetta3.10 source package from https://www.rosettacommons.org/software/ 
 and extract it to ``"~/"`` directory.
@@ -30,14 +30,14 @@ and extract it to ``"~/"`` directory.
  $ ./scons.py -j<NumOfJobs> mode=release bin
 ```
 
-- If you want to recompile CGLFold source code, use the following commands:
+- If you want to recompile IPTDFold source code, use the following commands:
 
 ```
  $ cd ~/IPTDFold/
  $ g++ -o bin/IPTDFold src/IPTDFold.cpp
 ```
 ## 2. INPUT
-CGLFold requires five files to generate models:
+IPTDFold requires five files to generate models:
 
 	-f	fasta			 : fasta file
 	-d	dmap			 : inter-residue distance file
