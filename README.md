@@ -46,7 +46,7 @@ CGLFold requires five files to generate models:
 	-rosetta rosetta executable file : executable file of ClassicAbinitio protocol of Rosetta
 
 ## 3. OUTPUT
-Predicted models of IPTDFold are stored in the ``"example/"`` folder.
+The predicted model will be generated on the path where the IPTDFold program runs.
 
 ## 4. EXAMPLE
 Please follow the below steps to run IPTDFold:
@@ -59,7 +59,7 @@ Please follow the below steps to run IPTDFold:
       $ ../bin/IPTDFold -f fasta -d distance.txt -frag3 3mer_frag_set -frag9 9mer_frag_set -rosetta ~/rosetta_src_2018.33.60351_bundle/main/source/bin/AbinitioRelax.default.linuxgccrelease
 ```
 
-- Five models will generate in the current path folder.
+- Five models will generate in the ``"example/"`` folder.
 
 ## 5. DISCLAIMER
 The executable software and the source code of IPTDFold is distributed free of charge 
