@@ -53,10 +53,10 @@ void apply();
 int main(int argc, char ** argv){
 	cout << endl;
 	cout << "###########################################################################" << endl;
-	cout << "#                                CGLFold                                  #" << endl;
+	cout << "#                                IPTDFold                                 #" << endl;
 	cout << "#                              Version: 1.0                               #" << endl;
-	cout << "#          A contact-assisted de novo protein structure prediction        #" << endl;
-	cout << "#    using global exploration and loop perturbation sampling algorithm    #" << endl;
+	cout << "#  A de novo protein structure prediction by iterativepartition sampling, #" << endl;
+	cout << "#  topology adjustment, andresidue-level distance deviation optimization  #" << endl;
 	cout << "#                         Copyright (C) Guijun Zhang                      #" << endl;
 	cout << "#                     College of Information engineering                  #" << endl;
 	cout << "#            Zhejiang university of technology, Hangzhou, China           #" << endl;
