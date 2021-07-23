@@ -20,6 +20,12 @@ Please Follow the below steps to install and configure IPTDFold:
 
 - Download Rosetta3.10 source package from https://www.rosettacommons.org/software/ 
 and extract it to ``"~/"`` directory.
+- Compile the source code of Rosetta using the following commands:
+
+```
+ $ cd ~/Rosetta/main/source/
+ $ ./scons.py -j<NumOfJobs> mode=release bin
+``` 
 
 - Copy and paste source code of ``"ClassicAbinitio.cc"``, ``"ClassicAbinitio.hh"``, ``"LJcore.cc"``, ``"LJcore.hh"``,  ``"LJAngleRotation.cc"``, ``"LJAngleRotation.hh"``, and ``"LJAngleRotation.fwd.hh"`` from ``"src/"`` folder in IPTDFold package to ``"~/Rosetta/main/source/src/protocols/abinitio/"`` folder in Rosetta. Copy and paste configuration file ``"protocols_b_6.src.settings"`` from ``"src/"`` folder in IPTDFold package to ``"~/Rosetta/main/source/src/"`` folder in Rosetta.
 
@@ -27,7 +33,7 @@ and extract it to ``"~/"`` directory.
 
 ```
  $ cd ~/Rosetta/main/source/
- $ ./scons.py -j<NumOfJobs> mode=release bin
+ $ ./scons.py -j<NumOfJobs> AbinitioRelax mode=release
 ```
 
 - If you want to recompile IPTDFold source code, use the following commands:
