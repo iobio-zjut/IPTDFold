@@ -42,6 +42,11 @@ and extract it to ``"~/"`` directory.
  $ cd ~/IPTDFold/
  $ g++ -o bin/IPTDFold src/IPTDFold.cpp
 ```
+- If you do not recompile IPTDFold source code, you need to add executable permissions for file of'~/IPTDFold/bin/IPTDFold' using the following commands:
+
+```
+ $ chmod +x ~/IPTDFold//IPTDFold/
+```
 ## 2. INPUT
 IPTDFold requires five files to generate models:
 
