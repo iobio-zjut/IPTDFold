@@ -45,7 +45,7 @@ and extract it to ``"~/"`` directory.
 - If you do not recompile IPTDFold source code, you need to add executable permissions for file of ``"~/IPTDFold/bin/IPTDFold"`` using the following commands:
 
 ```
- $ chmod +x ~/IPTDFold/IPTDFold/
+ $ chmod +x ~/IPTDFold/bin/IPTDFold/
 ```
 ## 2. INPUT
 IPTDFold requires five files to generate models:
@@ -62,7 +62,7 @@ The predicted model will be generated on the path where the IPTDFold program run
 ## 4. EXAMPLE
 Please follow the below steps to run IPTDFold:
 
-- Go to the ``"example/"`` folder of IPTDFold.
+- Go to the ``"~/IPTDFold/example/"`` folder of IPTDFold.
   
 - Run IPTDFold with the following command:
   
