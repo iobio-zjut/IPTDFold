@@ -64,7 +64,7 @@ Please follow the below steps to run IPTDFold:
 
 - Go to the ``"~/IPTDFold/example/"`` folder of IPTDFold.
   
-- Run IPTDFold with the following command:
+- Run IPTDFold with the following command (the path of '-rosetta' needs to be replaced with the actual path of the Rosetta executable file.):
   
 ```
       $ ../bin/IPTDFold -f fasta -d distance.txt -frag3 3mer_frag_set -frag9 9mer_frag_set -rosetta ~/rosetta_src_2018.33.60351_bundle/main/source/bin/AbinitioRelax.default.linuxgccrelease
